@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for search engines and browser display -->
+  <meta name="description" content="They See Me Rolling: High-Speed Event Vision-Based Tactile Roller Sensor for Large Surface Measurements. We present a novel tactile sensor integrating a neuromorphic camera in a rolling mechanism for rapid, high-resolution, continuous 3D surface scanning, achieving state-of-the-art speed and accuracy for industrial inspection.">
+  <meta name="keywords" content="neuromorphic vision, tactile sensor, 3D reconstruction, high-speed scanning, event-based camera, industrial inspection, surface measurement, roller sensor, multi-view stereo, Bayesian fusion">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Banner image for browser and link previews -->
+  <link rel="image_src" href="images/favi.png">
+
+  <title>They See Me Rolling</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favi.PNG">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">They See Me Rolling: High-Speed Event Vision-Based Tactile
+              Roller Sensor for Large Surface Measurements</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://linkedin.com/in/akram-khairi" target="_blank">Akram Khairi</a>,
+              </span>
+              <span class="author-block">
+                <a
+                  href="https://scholar.google.com/citations?user=AsIRly8AAAAJ&hl=en"
+                  target="_blank"
+                >Hussain Sajwani</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://linkedin.com/in/abdallah-al-kilany" target="_blank">Abdallah Mohammad Alkilany</a>,
+              </span>
+              <span class="author-block">
+                <a
+                  href="https://scholar.google.com/citations?user=BlFNLpAAAAAJ&hl=en"
+                  target="_blank"
+                >Laith AbuAssi</a>,
+              </span>
+              <span class="author-block">
+                <a
+                  href="https://scholar.google.com/citations?user=AGpxQacAAAAJ&hl=en"
+                  target="_blank"
+                >Mohamad Halwani</a>,
+              </span>
+              <span class="author-block">
+                <a
+                  href="https://scholar.google.com/citations?user=xQZkEfoAAAAJ&hl=en"
+                  target="_blank"
+                >Islam Mohamed Zaid</a>,
+              </span>
+              <span class="author-block">
+                <a
+                  href="not found"
+                  target="_blank"
+                >Ahmed Awadalla</a>,
+              </span>
+              <span class="author-block">
+                <a
+                  href="https://www.linkedin.com/in/andre-dewald-swart"
+                  target="_blank"
+                >Dewald Swart</a>,
+              </span>
+              <span class="author-block">
+                <a
+                  href="https://scholar.google.com/citations?user=zSOSgqUAAAAJ&hl=en"
+                  target="_blank"
+                >Abdulla Ayyad</a>,
+              </span>
+              <span class="author-block">
+                <a
+                  href="https://scholar.google.com/citations?user=UejeukMAAAAJ&hl=en"
+                  target="_blank"
+                >Yahya Zweiri</a>
+              </span>
+
+              
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Advanced Research & Innovation Center (ARIC) <br>Khalifa University</span>
+                  </div>
+          
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2507.19914" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link
+                    <span class="link-block">
+                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Supplementary</span>
+                    </a>
+                  </span> -->
+
+
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2507.19914" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+                                <!-- Github link -->
+                                <span class="link-block">
+                                  <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                                  class="external-link button is-normal is-rounded is-danger">
+                                  <span class="icon">
+                                    <i class="fab fa-github"></i>
+                                  </span>
+                                  <span>Code coming soon...</span>
+                                </a>
+                              </span>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video
+      src="static/videos/roller_abstract_gif.mp4"
+      alt="GelBelt on PCB"
+      style="max-width: 100%;"
+      controls
+      loop
+      muted
+      autoplay
+      playsinline
+    ></video>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            High-resolution 3D reconstruction of large surfaces, such as aircraft fuselages, is vital for quality control. Vision-based tactile sensors (VBTSs) offer high local resolution but require slow 'press-and-lift' measurements stitched for large areas. Approaches with sliding or roller/belt VBTS designs provide measurements continuity.  However, they face significant challenges respectively: sliding struggles with friction/wear and both approaches are speed-limited by conventional camera frame rates and motion blur, making large-area scanning time consuming. Thus, a rapid, continuous, high-resolution method is needed. We introduce a novel tactile sensor integrating a neuromorphic camera in a rolling mechanism to achieve this. Leveraging its high temporal resolution and robustness to motion blur, our system uses a modified event-based multi-view stereo approach for 3D reconstruction. We demonstrate state-of-the-art scanning speeds up to 0.5 m/s, achieving Mean Absolute Error below 100 microns — 11 times faster than prior continuous tactile sensing methods. A multi-reference Bayesian fusion strategy enhances accuracy (reducing MAE by 25.2% compared to EMVS) and mitigates curvature errors. We also validate high-speed feature recognition via Braille reading 2.6 times faster than previous approaches. This work presents the first neuromorphic vision-based tactile roller sensor enabling rapid, high-resolution continuous tactile scanning for efficient large-scale industrial inspection.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h2 class="title is-2 has-text-centered" style="margin-bottom: 1.5rem;">
+      High-Speed 3D Reconstruction
+    </h2>
+    <div class="content has-text-justified" style="margin-bottom: 2rem;">
+      <p>
+      </p>
+    </div>
+    <div class="columns is-vcentered">
+      <!-- Left Video Block -->
+      <div class="column is-half has-text-centered">
+        <div style="position: relative; display: inline-block;">
+          <video
+            src="static/videos/stairs_pcd.mp4"
+            alt="GelBelt on PCB"
+            style="max-width: 100%; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);"
+            controls
+            loop
+            muted
+            autoplay
+            playsinline
+          ></video>
+          <div style="position: absolute; top: 120px; left: 210px; width: 160px;">
+            <div style="display: flex; flex-direction: row; align-items: flex-start;">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Right Video Block -->
+      <div class="column is-half has-text-centered">
+        <div style="position: relative; display: inline-block;">
+          <video
+            src="static/videos/steps_large.mp4"
+            alt="GelBelt on Hex Mat"
+            style="max-width: 100%; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);"
+            controls
+            loop
+            muted
+            autoplay
+            playsinline
+          ></video>
+          <div style="position: absolute; top: 60px; right: 30px; width: 120px;">
+            <div style="display: flex; flex-direction: column; align-items: flex-end;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h2>
+      Below you can see the results for reconstruction accuracy for single objects and large surfaces. We achieve mean absolute error (MAE) well below 100 microns on a variety of test objects rolling at 0.5 m/s.
+    </h2>
+    <br>
+    <div class="column has-text-centered">
+      <div style="position: relative; display: inline-block;">
+        <img
+          src="static/images/reconstruct-full.png"
+          alt="Table of reconstruction results and depth map"
+          style="max-width: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.08);"
+        >
+        <div style="position: absolute; top: 60px; right: 30px; width: 120px;">
+          <div style="display: flex; flex-direction: column; align-items: flex-end;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!-- Youtube video -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <!-- Paper video. -->
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          
+          <div class="publication-video">
+            <!-- Youtube embed code here -->
+            <iframe src="https://www.youtube.com/embed/2PXCx0AydtU?si=25FgmO-T8iF5vuuZ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End youtube video -->
+
+
+
+
+
+
+<!--BibTex citation -->
+  <!-- <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>BibTex Code Here</code></pre>
+    </div>
+</section> -->
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
