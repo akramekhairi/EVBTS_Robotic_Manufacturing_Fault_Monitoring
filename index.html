@@ -9,7 +9,8 @@
   <!-- Banner image for browser and link previews -->
   <link rel="image_src" href="images/favi.png">
 
-  <title>They See Me Rolling</title>
+  <title>Real-Time Fault Detection in Robotic Manufacturing Using
+High-Bandwidth Event Vision-Based Tactile Sensing</title>
   <link rel="icon" type="image/x-icon" href="static/images/favi.PNG">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -37,10 +38,14 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">They See Me Rolling: High-Speed Event Vision-Based Tactile
-              Roller Sensor for Large Surface Measurements</h1>
+            <h1 class="title is-1 publication-title">Real-Time Fault Detection in Robotic Manufacturing Using
+High-Bandwidth Event Vision-Based Tactile Sensing</h1>
+<p class="is-size-3 has-text-success" style="font-family: 'Google Sans', sans-serif; font-weight: bold; margin-top: 0.5rem; margin-bottom: 1rem;">🏆 Accepted in <i>Sensors International</i></p>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=-fA_77cAAAAJ&hl=en" target="_blank">Eslam Sherif</a>,
+              </span>
               <span class="author-block">
                 <a href="https://linkedin.com/in/akram-khairi" target="_blank">Akram Khairi</a>,
               </span>
@@ -49,33 +54,30 @@
                   href="https://scholar.google.com/citations?user=AsIRly8AAAAJ&hl=en"
                   target="_blank"
                 >Hussain Sajwani</a>,
+               </span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=cjIX8IQAAAAJ&hl=en" target="_blank">Abdullah Solayman</a>,
+              </span>
               </span>
               <span class="author-block">
                 <a href="https://linkedin.com/in/abdallah-al-kilany" target="_blank">Abdallah Mohammad Alkilany</a>,
               </span>
               <span class="author-block">
                 <a
-                  href="https://scholar.google.com/citations?user=BlFNLpAAAAAJ&hl=en"
+                  href="https://www.linkedin.com/in/ahmed-taha-816a61141/"
                   target="_blank"
-                >Laith AbuAssi</a>,
-              </span>
+              >Ahmed Awadalla</a>,
               <span class="author-block">
                 <a
                   href="https://scholar.google.com/citations?user=AGpxQacAAAAJ&hl=en"
                   target="_blank"
                 >Mohamad Halwani</a>,
               </span>
-              <span class="author-block">
+                            <span class="author-block">
                 <a
-                  href="https://scholar.google.com/citations?user=xQZkEfoAAAAJ&hl=en"
+                  href="https://scholar.google.com/citations?user=BlFNLpAAAAAJ&hl=en"
                   target="_blank"
-                >Islam Mohamed Zaid</a>,
-              </span>
-              <span class="author-block">
-                <a
-                  href="not found"
-                  target="_blank"
-                >Ahmed Awadalla</a>,
+                >Laith AbuAssi</a>,
               </span>
               <span class="author-block">
                 <a
@@ -108,7 +110,7 @@
                     <div class="publication-links">
                          <!-- Arxiv PDF link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/2507.19914" target="_blank"
+                        <a href="" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -131,23 +133,23 @@
 
 
                 <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/2507.19914" target="_blank"
+                <!-- <span class="link-block">
+                  <a href="" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
                   </span>
                   <span>arXiv</span>
                 </a>
-              </span>
+              </span> -->
                                 <!-- Github link -->
                                 <span class="link-block">
-                                  <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                                  <a href="" target=""
                                   class="external-link button is-normal is-rounded is-danger">
                                   <span class="icon">
                                     <i class="fab fa-github"></i>
                                   </span>
-                                  <span>Code coming soon...</span>
+                                  <span>Code & dataset coming soon...</span>
                                 </a>
                               </span>
 
@@ -166,10 +168,9 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video
-      src="static/videos/roller_abstract_gif.mp4"
+      src="static/videos/EVBTS_Fault_Monitoring_gif.mp4"
       alt="GelBelt on PCB"
       style="max-width: 100%;"
-      controls
       loop
       muted
       autoplay
@@ -188,7 +189,27 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            High-resolution 3D reconstruction of large surfaces, such as aircraft fuselages, is vital for quality control. Vision-based tactile sensors (VBTSs) offer high local resolution but require slow 'press-and-lift' measurements stitched for large areas. Approaches with sliding or roller/belt VBTS designs provide measurements continuity.  However, they face significant challenges respectively: sliding struggles with friction/wear and both approaches are speed-limited by conventional camera frame rates and motion blur, making large-area scanning time consuming. Thus, a rapid, continuous, high-resolution method is needed. We introduce a novel tactile sensor integrating a neuromorphic camera in a rolling mechanism to achieve this. Leveraging its high temporal resolution and robustness to motion blur, our system uses a modified event-based multi-view stereo approach for 3D reconstruction. We demonstrate state-of-the-art scanning speeds up to 0.5 m/s, achieving Mean Absolute Error below 100 microns — 11 times faster than prior continuous tactile sensing methods. A multi-reference Bayesian fusion strategy enhances accuracy (reducing MAE by 25.2% compared to EMVS) and mitigates curvature errors. We also validate high-speed feature recognition via Braille reading 2.6 times faster than previous approaches. This work presents the first neuromorphic vision-based tactile roller sensor enabling rapid, high-resolution continuous tactile scanning for efficient large-scale industrial inspection.
+Early detection of machining faults is critical to avoid damage to high-value workpieces,
+prevent tool failure, and mitigate safety risks in automated manufacturing environments. While
+robotic automation has advanced across manufacturing, aerospace machining remains difficult
+to automate due to strict quality requirements and the lack of intelligent, real-time fault
+monitoring. During machining, skilled human operators rely on their tactile perception to
+detect subtle faults such as tool wear, misalignment, or insufficient feed force through vibration
+cues. Replicating this level of high-resolution tactile fidelity in robotic systems remains a key
+challenge. We present an event Vision-Based Tactile Sensor (EVBTS) that enables robots to
+perceive and interpret machining vibrations with a human-like sense of touch. The sensor uses
+an event camera to observe a deformable, marker-embedded membrane, capturing fine-grained
+spatiotemporal deformation patterns with microsecond latency. This high-fidelity, biomimetic
+signal stream allows robotic systems to detect faults in machining dynamics. We evaluate
+EVBTS on a robotic drilling setup for aerospace nutplate installation, spanning 12 distinct
+machining conditions. A lightweight convolutional neural network, integrated into a real-time
+pipeline with Exponential Moving Average (EMA) filtering, achieves 98.56% classification test
+accuracy, a 98.11% test F1 score, and &lt; 100 ms inference latency. This pipeline demonstrates
+closed-loop feedback, successfully halting faulty operations mid-process to prevent defects.
+These results demonstrate that EVBTS enables real-time, high-resolution fault detection and
+intervention, allowing for early correction, much like a skilled human operator, supporting safer,
+more precise, and autonomous manufacturing.
+
           </p>
         </div>
       </div>
@@ -198,74 +219,6 @@
 <!-- End paper abstract -->
 
 
-<section class="section">
-  <div class="container is-max-desktop">
-    <h2 class="title is-2 has-text-centered" style="margin-bottom: 1.5rem;">
-      High-Speed 3D Reconstruction
-    </h2>
-    <div class="content has-text-justified" style="margin-bottom: 2rem;">
-      <p>
-      </p>
-    </div>
-    <div class="columns is-vcentered">
-      <!-- Left Video Block -->
-      <div class="column is-half has-text-centered">
-        <div style="position: relative; display: inline-block;">
-          <video
-            src="static/videos/stairs_pcd.mp4"
-            alt="GelBelt on PCB"
-            style="max-width: 100%; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);"
-            controls
-            loop
-            muted
-            autoplay
-            playsinline
-          ></video>
-          <div style="position: absolute; top: 120px; left: 210px; width: 160px;">
-            <div style="display: flex; flex-direction: row; align-items: flex-start;">
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Right Video Block -->
-      <div class="column is-half has-text-centered">
-        <div style="position: relative; display: inline-block;">
-          <video
-            src="static/videos/steps_large.mp4"
-            alt="GelBelt on Hex Mat"
-            style="max-width: 100%; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08);"
-            controls
-            loop
-            muted
-            autoplay
-            playsinline
-          ></video>
-          <div style="position: absolute; top: 60px; right: 30px; width: 120px;">
-            <div style="display: flex; flex-direction: column; align-items: flex-end;">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <h2>
-      Below you can see the results for reconstruction accuracy for single objects and large surfaces. We achieve mean absolute error (MAE) well below 100 microns on a variety of test objects rolling at 0.5 m/s.
-    </h2>
-    <br>
-    <div class="column has-text-centered">
-      <div style="position: relative; display: inline-block;">
-        <img
-          src="static/images/reconstruct-full.png"
-          alt="Table of reconstruction results and depth map"
-          style="max-width: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.08);"
-        >
-        <div style="position: absolute; top: 60px; right: 30px; width: 120px;">
-          <div style="display: flex; flex-direction: column; align-items: flex-end;">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 
 
@@ -282,7 +235,7 @@
           
           <div class="publication-video">
             <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/2PXCx0AydtU?si=25FgmO-T8iF5vuuZ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/p5CxMV1n-Lc?si=GsbqJiWFM9lyUvyP" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
         </div>
       </div>
